@@ -1,0 +1,12 @@
+Api:
+  Host: '0.0.0.0'
+  Port: 6666
+  Prefork: false
+Database:
+  DatabaseName: 'data.db'
+  PrepareStmt: true
+Redis:
+  Host: 'redis' # docker container name
+  Port: 6379
+  Password: ''
+  DB: 0
